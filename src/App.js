@@ -76,6 +76,7 @@ const updateNOTE=()=>{
       console.log(Notes)
       setNotes(Notes)
       setUpdateNote({...updateNote,title:'',description:''})
+      setNote({...note,title:'',description:''})
       setExpand(false)
     })
   })

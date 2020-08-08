@@ -158,7 +158,9 @@ const Signup = () => {
                 placeholder='Confirm Password'
                 />
           <input type="submit" onClick={onSubmit} name="" value="Sign Up" />
-          <a href="/signin" style={{color:"#f1f1f1",textDecoration:"none"}} >Sign In here</a>
+          <Link to="/signin">
+          <p style={{textDecoration:'none',color:'#f1f1f1'}}>Sign In here</p>
+          </Link>
           {successMessage()}
           {errorMessage()}
         </form>

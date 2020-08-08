@@ -1,5 +1,5 @@
 
-const API='http://192.168.0.9:8000/api/'
+const API='https://pacific-chamber-04666.herokuapp.com/api/'
 
 export const createNote = (userId, token, note) => {
     console.log(note)

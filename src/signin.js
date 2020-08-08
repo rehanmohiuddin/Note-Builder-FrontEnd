@@ -115,10 +115,11 @@ const Signin = () => {
                 placeholder='Password'
                 />
           <input type="submit" onClick={onSubmit} name="" value="Login" />
-          
-            <a href="/signup" style={{color:"#f1f1f1",textDecoration:"none"}} >Sign Up here</a>
 
-               
+          <Link to="/signup">
+          <p style={{textDecoration:'none',color:'#f1f1f1'}}>Sign Up here</p>
+          </Link>
+  
           {errorMessage()}
         </form>
         </MDBContainer>
