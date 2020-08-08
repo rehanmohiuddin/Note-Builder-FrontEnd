@@ -1,3 +1,19 @@
+
+Note Builder Application Using MERN Stack
+
+BackEnd Repository Link :https://github.com/rehanmohiuddin/Note-Builder-Backend
+
+Live Demo Here : https://note-builder.netlify.app/
+
+Backend API Hosted with Heroku
+
+Database : MongoDB Atlas
+
+
+
+
+To Run In your Machine Try Following Steps:-
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
